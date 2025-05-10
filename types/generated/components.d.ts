@@ -3,12 +3,13 @@ import type { Schema, Struct } from '@strapi/strapi';
 export interface EducationEducation extends Struct.ComponentSchema {
   collectionName: 'components_education_educations';
   info: {
+    description: '';
     displayName: 'Education';
     icon: 'stack';
   };
   attributes: {
     degree: Schema.Attribute.String;
-    description: Schema.Attribute.String;
+    description: Schema.Attribute.Text;
     endDate: Schema.Attribute.String;
     major: Schema.Attribute.String;
     startDate: Schema.Attribute.String;
@@ -19,6 +20,7 @@ export interface EducationEducation extends Struct.ComponentSchema {
 export interface ExperienceExperience extends Struct.ComponentSchema {
   collectionName: 'components_experience_experiences';
   info: {
+    description: '';
     displayName: 'Experience';
     icon: 'file';
   };
@@ -28,7 +30,7 @@ export interface ExperienceExperience extends Struct.ComponentSchema {
     endDate: Schema.Attribute.String;
     startDate: Schema.Attribute.String;
     state: Schema.Attribute.String;
-    summary: Schema.Attribute.String;
+    summary: Schema.Attribute.Text;
     title: Schema.Attribute.String;
   };
 }

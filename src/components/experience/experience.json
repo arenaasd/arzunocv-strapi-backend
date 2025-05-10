@@ -2,7 +2,8 @@
   "collectionName": "components_experience_experiences",
   "info": {
     "displayName": "Experience",
-    "icon": "file"
+    "icon": "file",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -25,7 +26,7 @@
       "type": "string"
     },
     "summary": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
