@@ -62,6 +62,13 @@
     },
     "themeColor": {
       "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
