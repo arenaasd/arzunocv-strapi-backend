@@ -71,7 +71,8 @@
         "basic",
         "pro",
         "enterprise"
-      ]
+      ],
+      "default": "basic"
     }
   }
 }
