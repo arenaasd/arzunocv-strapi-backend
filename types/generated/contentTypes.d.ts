@@ -399,8 +399,10 @@ export interface ApiUserResumeUserResume extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     phone: Schema.Attribute.String;
+    projects: Schema.Attribute.Component<'projects.projects', true>;
     publishedAt: Schema.Attribute.DateTime;
     resumeId: Schema.Attribute.String;
+    selectedWorkType: Schema.Attribute.Enumeration<['projects', 'experience']>;
     skills: Schema.Attribute.Component<'skills.skills', true>;
     summary: Schema.Attribute.Text;
     themeColor: Schema.Attribute.String;

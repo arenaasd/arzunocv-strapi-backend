@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_projects_projects",
+  "info": {
+    "displayName": "projects",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "techs": {
+      "type": "text"
+    },
+    "link": {
+      "type": "text"
+    }
+  }
+}
