@@ -49,6 +49,18 @@ export interface ExperienceExperience extends Struct.ComponentSchema {
   };
 }
 
+export interface HobbiesHobbies extends Struct.ComponentSchema {
+  collectionName: 'components_hobbies_hobbies';
+  info: {
+    displayName: 'hobbies';
+    icon: 'briefcase';
+  };
+  attributes: {
+    description: Schema.Attribute.Text;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface ProjectsProjects extends Struct.ComponentSchema {
   collectionName: 'components_projects_projects';
   info: {
@@ -81,6 +93,7 @@ declare module '@strapi/strapi' {
       'certificates.certificates': CertificatesCertificates;
       'education.education': EducationEducation;
       'experience.experience': ExperienceExperience;
+      'hobbies.hobbies': HobbiesHobbies;
       'projects.projects': ProjectsProjects;
       'skills.skills': SkillsSkills;
     }

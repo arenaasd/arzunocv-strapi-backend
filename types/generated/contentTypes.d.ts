@@ -390,6 +390,7 @@ export interface ApiUserResumeUserResume extends Struct.CollectionTypeSchema {
     email: Schema.Attribute.String;
     experience: Schema.Attribute.Component<'experience.experience', true>;
     firstName: Schema.Attribute.String;
+    hobbies: Schema.Attribute.Component<'hobbies.hobbies', true>;
     Image: Schema.Attribute.Media<'images'>;
     jobTitle: Schema.Attribute.String;
     lastName: Schema.Attribute.String;

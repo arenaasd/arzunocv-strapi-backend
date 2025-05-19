@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_hobbies_hobbies",
+  "info": {
+    "displayName": "hobbies",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

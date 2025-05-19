@@ -87,6 +87,11 @@
       "type": "component",
       "repeatable": true,
       "component": "certificates.certificates"
+    },
+    "hobbies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hobbies.hobbies"
     }
   }
 }
