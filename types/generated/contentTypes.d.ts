@@ -393,6 +393,7 @@ export interface ApiUserResumeUserResume extends Struct.CollectionTypeSchema {
     hobbies: Schema.Attribute.Component<'hobbies.hobbies', true>;
     Image: Schema.Attribute.Media<'images'>;
     jobTitle: Schema.Attribute.String;
+    languages: Schema.Attribute.Component<'languages.languages', true>;
     lastName: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<

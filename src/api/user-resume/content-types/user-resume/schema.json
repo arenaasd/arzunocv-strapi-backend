@@ -92,6 +92,11 @@
       "type": "component",
       "repeatable": true,
       "component": "hobbies.hobbies"
+    },
+    "languages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "languages.languages"
     }
   }
 }

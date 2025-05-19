@@ -61,6 +61,20 @@ export interface HobbiesHobbies extends Struct.ComponentSchema {
   };
 }
 
+export interface LanguagesLanguages extends Struct.ComponentSchema {
+  collectionName: 'components_languages_languages';
+  info: {
+    displayName: 'languages';
+    icon: 'alien';
+  };
+  attributes: {
+    level: Schema.Attribute.Enumeration<
+      ['Basic', 'Intermediate', 'Fluent', 'Native']
+    >;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface ProjectsProjects extends Struct.ComponentSchema {
   collectionName: 'components_projects_projects';
   info: {
@@ -94,6 +108,7 @@ declare module '@strapi/strapi' {
       'education.education': EducationEducation;
       'experience.experience': ExperienceExperience;
       'hobbies.hobbies': HobbiesHobbies;
+      'languages.languages': LanguagesLanguages;
       'projects.projects': ProjectsProjects;
       'skills.skills': SkillsSkills;
     }
