@@ -82,6 +82,11 @@
         "projects",
         "experience"
       ]
+    },
+    "certificates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "certificates.certificates"
     }
   }
 }

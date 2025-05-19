@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_certificates_certificates",
+  "info": {
+    "displayName": "certificates",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "issuer": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    }
+  }
+}
