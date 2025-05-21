@@ -83,6 +83,14 @@
         "experience"
       ]
     },
+    "selectedExtraFields": {
+      "type": "enumeration",
+      "enum": [
+        "hobbies",
+        "languages",
+        "certificates"
+      ]
+    },
     "certificates": {
       "type": "component",
       "repeatable": true,
